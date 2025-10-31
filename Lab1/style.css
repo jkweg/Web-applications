@@ -1,11 +1,12 @@
 html {
-      background-color: #e6ded9;
+      background-color: rgb(151, 215, 215);
       height: 100vh;
 }
 
 body {
       height: 100vh;
       margin: 0;
+      font-size: 20px;
 }
 
 .main-container {
