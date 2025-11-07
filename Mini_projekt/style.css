@@ -1,16 +1,96 @@
-html {
-      background-color: #DDBEAA;
-      height: 100vh;
+.nav_h1{
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    font-family: "Momo Trust Display" ;
+    margin-left: 5%;
+}
+.nav_links{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5%;
+    gap: 10%;
+    align-items: center;
+    font-size: 2vw;
+    font-family: "Momo Trust Display" ;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(128, 128, 128);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.nav_links a {         
+  text-decoration: none;           
+  transition: transform 0.2s ease, color 0.2s ease;
+}         
+
+.nav_links a:hover {
+  transform: scale(1.1);         
 }
 
-body {
-      height: 100vh;
-      margin: 0;
+.nav_links a:visited {
+  color: rgb(255, 255, 255); 
+}            
+
+ section.top{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(128, 128, 128);
+  font-family: "Momo Trust Display";
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  padding-top: 5%;
+  box-sizing: border-box;
+  gap: 3%;
+  align-items: center;
 }
 
-.main-container {
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
+.text_box {
+  background-color: rgb(105, 103, 107);
+  border-radius: 5%;
+  padding: 1%;
+  border: 0.3vw solid rgb(255, 255, 255);
+  color: rgb(255, 255, 255);
+  font-size: 1.2vw;
 }
+.image_box img {
+  width: 40vw;
+  height: auto;
+  border-radius: 0.8vw;
+  border: 0.3vw solid rgb(255, 255, 255);
+}
+
+ section.mid{
+  background-color: rgb(128, 128, 128);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  font-family: "Momo Trust Display";
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2%;
+  gap: 3%;
+  align-items: center;
+ } 
+.przycisk{
+  display: flex;
+  justify-content: center;
+}
+.przycisk a:hover {
+  transition: transform 0.2s ease, color 0.2s ease;
+  transform: scale(1.1);         
+}
+
+ button{
+  font-size: 0.8vw;
+  background-color: white;
+  width: 8vw;
+  height: 2vw;
+  border-radius: 2vw;
+  cursor: pointer;
+ }
