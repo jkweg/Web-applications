@@ -39,17 +39,31 @@ nav{
 .nav_links a:visited {
   color: rgb(255, 255, 255); 
 }            
-
+.top_data{
+  display: flex;
+  flex-direction: row;
+}
+#Korona_description{
+  color: white;
+  font-size: 3.5vw;
+  margin-top: 0;
+}
  section.top{
   display: flex;
-  justify-content: space-between;
-  background-color: rgb(128, 128, 128);
+  flex-direction: column;
+  background-color: rgb(118, 118, 118);
   font-family: "Momo Trust Display";
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 2%;
-  padding-top: 5%;
-  box-sizing: border-box;
+  padding-bottom: 3%;
+  padding-top: 2%;
+  gap: 3%;
+  align-items: center;
+  background: linear-gradient(to bottom,rgb(128, 128, 128) ,rgb(105, 103, 107),rgb(128, 128, 128) );
+}
+.top_data{
+  display: flex;
+  flex-direction: row;
   gap: 3%;
   align-items: center;
 }
@@ -190,6 +204,7 @@ nav{
 }
 
 /* Galeria */
+
 .gallery_back{
   background-color: rgb(128, 128, 128);
   padding: 1%;
