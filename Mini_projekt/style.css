@@ -7,7 +7,7 @@ nav{
 }
 .nav_h1{
     color: rgb(255, 255, 255);
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-family: "Momo Trust Display" ;
     margin-left: 5%;
 }
@@ -78,7 +78,7 @@ nav{
   padding: 1%;
   border: 0.4rem solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   box-shadow: 0.9rem 0.9rem 8rem black;
 }
 .text_box_right {
@@ -87,11 +87,11 @@ nav{
   padding: 1%;
   border: 0.4rem solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   box-shadow: -0.9rem 0.9rem 8rem black;
 }
 .image_box img {
-  width: 50rem;
+  width: 40rem;
   height: auto;
   border-radius: 5%;
   border: 0.3vw solid rgb(255, 255, 255);
@@ -265,8 +265,8 @@ nav{
   flex-direction: column;
   align-items: center;
   background-color: rgb(105, 103, 107);
-  width: 45rem;
-  height: 45rem;
+  width: 35rem;
+  height: 35rem;
   border-radius: 4rem;
   padding: 2%;
   margin-bottom: 2%;
@@ -275,7 +275,7 @@ nav{
 
 .video_box{
   background-color: black;
-  width: 45rem;
+  width: 35rem;
   height: 35rem;
   border-radius:2rem ;
   overflow: hidden;
@@ -286,12 +286,12 @@ nav{
   position: absolute;
   top: 0;
   left: 0;
-  width: 45rem;
-  height: 35rem;
+  width: 35rem;
+  height: 30rem;
   border: none;
 }
 .video_description{
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   text-align: center;
   font-family: "M PLUS Rounded 1c";
 }
