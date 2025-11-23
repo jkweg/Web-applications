@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generator</title>
+    <link rel="stylesheet" href="generator.css">
+</head>
+<body>
+    <div class="generator_box">
+        <form >
+            <label for="min_len">Minimalna dlugosc:</label>
+            <input type="text" name="min_len" id="min_len">
+            <br>
+            <label for="max_len">Maksymalna dlugosc:</label>
+            <input type="text" name="max_len" id="max_len">
+            <br>
+            <label for="czy_duze">Czy haslo ma zawierac duze litery?</label>
+            <input type="checkbox" name="czy_duze" id="czy_duze">
+            <br>
+            <label for="czy_specjalne">Czy haslo ma zawierac znaki specjalne?</label>
+            <input type="checkbox" name="czy_specjalne" id="czy_specjalne">
+            <br>
+            <button type="submit" onclick="generuj_haslo()"> Wygeneruj haslo</button>
+        </form>
+    </div>
+    
+    <script src="generator.js"></script>
+</body>
+</html>

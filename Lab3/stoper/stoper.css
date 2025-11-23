@@ -1,0 +1,36 @@
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.stoper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(143, 143, 143);
+}
+.display_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-size: 2rem;
+}
+.stoper_box{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vw;
+    width: 30vw;
+}
+
+button{
+    background-color: red;
+    width: 5vw;
+    height: 3vw;
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+}

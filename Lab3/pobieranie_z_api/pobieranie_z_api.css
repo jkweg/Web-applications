@@ -1,0 +1,15 @@
+.produkt{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3%;
+    background-color: rgb(147, 161, 157);
+    margin-bottom: 25px;
+}
+
+.produkty{
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
