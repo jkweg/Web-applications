@@ -74,7 +74,7 @@ nav{
 
 .text_box_left {
   background-color: rgb(105, 103, 107);
-  border-radius: 5rem;
+  border-radius: 4rem;
   padding: 1%;
   border: 0.4rem solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
@@ -83,7 +83,7 @@ nav{
 }
 .text_box_right {
   background-color: rgb(105, 103, 107);
-  border-radius: 5rem;
+  border-radius: 4rem;
   padding: 1%;
   border: 0.4rem solid rgb(255, 255, 255);
   color: rgb(255, 255, 255);
