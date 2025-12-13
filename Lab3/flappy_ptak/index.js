@@ -257,7 +257,7 @@ function render(){
         return w;
     }
 
-    // drawScore(score, canvas.width - getScoreWidth(score) - 10, 12);
+    drawScore(score, canvas.width - getScoreWidth(score) - 10, 12);
 
 
     if(state==='start'){
@@ -271,7 +271,7 @@ function render(){
         ctx.fillText(`Score: ${score}`, W/2-40, H/2+50);
         ctx.fillText(`Best: ${bestScores[0]||0}`, W/2-40, H/2+75);
     }
-    drawScore(score, canvas.width - getScoreWidth(score) - 10, 12);
+    // drawScore(score, canvas.width - getScoreWidth(score) - 10, 12);
 }
 
 function drawScore(value,x,y){
