@@ -9,6 +9,8 @@ function Formularz(){
     }
     return(
             <>
+            
+            
             <input value={text} onChange={handleTextChange}/>
 
             <div>

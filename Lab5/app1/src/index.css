@@ -7,3 +7,14 @@
 .licznik{
     text-align: center;
 }
+
+table{
+    border-collapse: collapse;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 10px;
+}
