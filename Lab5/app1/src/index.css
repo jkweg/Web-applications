@@ -18,3 +18,65 @@ table, th, td {
   border: 1px solid rgb(0, 0, 0);
   padding: 10px;
 }
+
+
+.komentarz{
+    width: 200px;
+    height: 150px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.ajdi{
+    width: 180px;
+    height: 10px;
+    background-color: rgb(168, 167, 167);
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    padding: 2px 5px;
+    font-size: 8px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zawartosc{
+    width: 180px;
+    height: 90px;
+    background-color: rgb(160, 160, 160);
+    margin-top: 5px ;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    word-wrap: break-word;
+    font-size: 12px;
+    padding: 2px 5px;
+}
+
+.lajkii{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    align-items: center;
+    gap: 5px;
+}
+
+.lajk{
+    width: 20px;
+    height: 20px;
+    font-size: 8px;
+    padding: 0;
+    text-align: center;
+}
+
+.Komentarze{
+    display: flex;
+    flex-wrap: wrap;
+}
